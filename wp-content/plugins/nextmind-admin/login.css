@@ -1,0 +1,160 @@
+body.login {
+    background: #F7F9FB;
+    color: #172B3A;
+    font-family: Arial, sans-serif;
+}
+
+body.login #login {
+    width: min(380px, calc(100% - 40px));
+    padding: 7vh 0 40px;
+}
+
+/* Replace the default logo with a text wordmark */
+body.login #login h1 a {
+    width: auto;
+    height: auto;
+    margin: 0 auto 28px;
+    background-image: none;
+    text-indent: 0;
+    overflow: visible;
+    color: #172B3A;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -1.5px;
+    text-decoration: none;
+}
+
+body.login #login h1 a:hover {
+    color: #256D77;
+}
+
+body.login #login form {
+    margin-top: 0;
+    padding: 32px 28px;
+    border: 1px solid #E2E8EE;
+    border-radius: 16px;
+    background: #FFFFFF;
+    box-shadow: 0 12px 36px rgba(23, 43, 58, 0.06);
+}
+
+body.login label {
+    color: #172B3A;
+    font-size: 14px;
+}
+
+body.login .input {
+    min-height: 48px;
+    margin-top: 8px;
+    padding: 10px 12px;
+    border: 1px solid #B8C8D2;
+    border-radius: 8px;
+    background: #F7F9FB;
+    color: #172B3A;
+    font-size: 18px;
+}
+
+body.login input[type="password"],
+body.login input.password-input {
+    padding-right: 44px;
+}
+
+body.login .input:focus,
+body.login input[type="checkbox"]:focus {
+    border-color: #256D77;
+    box-shadow: 0 0 0 2px rgba(37, 109, 119, 0.2);
+}
+
+body.login .button-primary {
+    min-height: 42px;
+    padding: 4px 22px;
+    border: 1px solid #256D77;
+    border-radius: 8px;
+    background: #256D77;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+body.login .button-primary:hover,
+body.login .button-primary:focus {
+    border-color: #172B3A;
+    background: #172B3A;
+}
+
+body.login .button.wp-hide-pw {
+    color: #256D77;
+}
+
+body.login #nav,
+body.login #backtoblog {
+    padding-inline: 8px;
+}
+
+body.login #nav a,
+body.login #backtoblog a,
+body.login .privacy-policy-link {
+    color: #256D77;
+}
+
+body.login #nav a:hover,
+body.login #backtoblog a:hover {
+    color: #172B3A;
+}
+
+body.login .message,
+body.login .notice,
+body.login #login_error {
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+body.login .message {
+    border-left-color: #256D77;
+}
+
+body.login a:focus-visible,
+body.login button:focus-visible,
+body.login input[type="submit"]:focus-visible {
+    outline: 2px solid #256D77;
+    outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+    body.login #login {
+        padding-top: 32px;
+    }
+
+    body.login #login form {
+        padding: 24px 20px;
+    }
+}
+
+body.login .wp-pwd {
+    position: relative;
+}
+
+body.login .wp-pwd .input {
+    margin-top: 0;
+}
+
+body.login .wp-pwd .button.wp-hide-pw {
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.login .wp-pwd .button.wp-hide-pw .dashicons {
+    position: static;
+    top: auto;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    transform: none;
+}

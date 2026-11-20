@@ -1,0 +1,34 @@
+# Ignore WordPress core and local files
+/*
+
+# Keep project documentation
+!/.gitignore
+!/README.md
+!/LICENSE
+!/screenshots/
+
+# Keep custom themes and plugins
+!/wp-content/
+/wp-content/*
+!/wp-content/themes/
+!/wp-content/plugins/
+
+# Exclude default WordPress themes
+/wp-content/themes/twenty*/
+
+# Exclude bundled plugins
+/wp-content/plugins/hello.php
+/wp-content/plugins/akismet/
+
+# Exclude sensitive files and development artifacts
+wp-config.php
+.env
+.env.*
+*.sql
+*.sql.gz
+*.log
+*.zip
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db
